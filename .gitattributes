@@ -1,0 +1,14 @@
+# Force LF line endings for all text files, regardless of platform.
+# Prevents CRLF/LF churn when the repo is edited on both Mac and Windows.
+* text=auto eol=lf
+
+# Binary files — leave untouched
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
